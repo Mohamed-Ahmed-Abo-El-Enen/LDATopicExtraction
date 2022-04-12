@@ -90,7 +90,6 @@ Some Notebook will save some results on the harddick for later process and tunin
 https://github.com/Mohamed-Ahmed-Abo-El-Enen/AIMChallenge/tree/main/Code/app
 * We could try more techniques like {Latent Semantic Analysis, pLSA, ...}
 * Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
-<br>
 <br> 
 https://medium.com/data-folks-indonesia/recent-works-in-topic-modeling-56c38da8dfc4
 <p align="right">(<a href="#top">back to top</a>)</p>
