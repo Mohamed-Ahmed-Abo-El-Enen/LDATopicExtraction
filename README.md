@@ -72,7 +72,7 @@ To run the source code
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Mohamed-Ahmed-Abo-El-Enen/CVOperationTask.git
+   git clone https://github.com/Mohamed-Ahmed-Abo-El-Enen/LDATopicExtraction.git
    ```
 2. Install Previous packages
 5. Run Notebook eack notebook have the commands to install it from pip
@@ -88,7 +88,6 @@ Some Notebook will save some results on the harddick for later process and tunin
 ### Future Work
 * Will try to make simple Flask API, just like this <br>
 https://github.com/Mohamed-Ahmed-Abo-El-Enen/AIMChallenge/tree/main/Code/app
-<br>
 <br>
 * We could try more techniques like {Latent Semantic Analysis, pLSA, ...}
 <br>
