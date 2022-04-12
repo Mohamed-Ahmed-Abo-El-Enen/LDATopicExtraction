@@ -91,7 +91,7 @@ https://github.com/Mohamed-Ahmed-Abo-El-Enen/AIMChallenge/tree/main/Code/app
 <br>
 * We could try more techniques like {Latent Semantic Analysis, pLSA, ...}
 <br>
-Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
+* Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
 <br>
 <br> 
 https://medium.com/data-folks-indonesia/recent-works-in-topic-modeling-56c38da8dfc4
