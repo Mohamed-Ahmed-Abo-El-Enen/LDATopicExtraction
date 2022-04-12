@@ -1,7 +1,7 @@
 <div align="center">
-  <h3 align="center">CV-Operation-Task</h3>
+  <h3 align="center">LDA Topic Extraction</h3>
   <p align="center">
-    A Computer Vision Inferance Task With C++
+    NLP Topic Extraction Task using LDA
     <br />
   </p>
 </div>
@@ -27,6 +27,9 @@
     <li>
       <a href="#Running">Running</a>
     </li>
+    <li>
+      <a href="#Future Work">Future Work</a>
+    </li>
   </ol>
 </details>
 
@@ -35,13 +38,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Converting the inferance stage from python code to c++ one <br>
+NLP Task To Define topics for list of docs and try to find top 3 topic and top nearest docs, as the problem is unsupervised one we will try to tune our prameters. <br>
 
 Here will see:
-* Loading Onnex File and preparing the tensor input output shape
-* Preprocessing steps on image using Opencv
-* Prediction Phase with pretrainde loaded model
-* Postprocessing the result  
+* Simple Notebook with LSA, LDA with sklearn, LDA with Gensim
+* Cleaninig and preprocessing the text(Lemmetazation, CountVector, ...) 
+* Word cloud for each topic
+* Each doc topic score
+* using TSNE, TruncatedSVD to visualize in 3D space
+* Using kmeans to find similar topics
+* Inference the a new text
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -49,10 +55,13 @@ Here will see:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Python on using Basic packages Numpy, Pandas, matplotlib <br> Plus:
 
-* [Onnxruntime](https://github.com/microsoft/onnxruntime)
-* [Opencv](https://opencv.org/)
+* [Sklearn](https://scikit-learn.org/stable/)
+* [Wordcloud](https://pypi.org/project/wordcloud/)
+* [NLTK](https://www.nltk.org/install.html)
+* [Gensim](https://pypi.org/project/gensim/)
+* [Spacy](https://spacy.io/usage)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -65,16 +74,27 @@ To run the source code
    ```sh
    git clone https://github.com/Mohamed-Ahmed-Abo-El-Enen/CVOperationTask.git
    ```
-2. Install Opencv
-3. Install Onnxruntime
-4. Make sure the previous packages on our root / IDE local variable
-5. Run the Cmakelist.txt to create the project 
+2. Install Previous packages
+5. Run Notebook eack notebook have the commands to install it from pip
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Running
 
-Code was build on Visual Studio and generated the exutable file On Windows <br>
-Followed given python code no need for parsing any parameters to it just simple run
+Code Run on Python 3.6.9 <br>
+Some Notebook will save some results on the harddick for later process and tuning 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Future Work
+* Will try to make simple Flask API, just like this <br>
+https://github.com/Mohamed-Ahmed-Abo-El-Enen/AIMChallenge/tree/main/Code/app
+<br>
+<br>
+* We could try more techniques like {Latent Semantic Analysis, pLSA, ...}
+<br>
+Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
+<br>
+<br> 
+https://medium.com/data-folks-indonesia/recent-works-in-topic-modeling-56c38da8dfc4
 <p align="right">(<a href="#top">back to top</a>)</p>
  
