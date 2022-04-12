@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-NLP Task To Define topics for list of docs and try to find top 3 topic and top nearest docs, as the problem is unsupervised one we will try to tune our prameters. <br>
+NLP Task With 3 Notebook To Define topics from list of docs and try to find top 3 topic and top nearest docs, as the problem is unsupervised one we will try to tune our prameters. <br>
 
 Here will see:
 * Simple Notebook with LSA, LDA with sklearn, LDA with Gensim
