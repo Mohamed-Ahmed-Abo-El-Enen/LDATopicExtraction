@@ -88,9 +88,7 @@ Some Notebook will save some results on the harddick for later process and tunin
 ### Future Work
 * Will try to make simple Flask API, just like this <br>
 https://github.com/Mohamed-Ahmed-Abo-El-Enen/AIMChallenge/tree/main/Code/app
-<br>
 * We could try more techniques like {Latent Semantic Analysis, pLSA, ...}
-<br>
 * Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
 <br>
 <br> 
