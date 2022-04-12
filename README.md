@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-NLP Task To Define topics for list of docs and try to find top 3 topic and top nearest docs, as the problem is unsupervised one we will try to tune our prameters. <br>
+NLP Task With 3 Notebook To Define topics from list of docs and try to find top 3 topic and top nearest docs, as the problem is unsupervised one we will try to tune our prameters. <br>
 
 Here will see:
 * Simple Notebook with LSA, LDA with sklearn, LDA with Gensim
@@ -72,7 +72,7 @@ To run the source code
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Mohamed-Ahmed-Abo-El-Enen/CVOperationTask.git
+   git clone https://github.com/Mohamed-Ahmed-Abo-El-Enen/LDATopicExtraction.git
    ```
 2. Install Previous packages
 5. Run Notebook eack notebook have the commands to install it from pip
@@ -88,12 +88,8 @@ Some Notebook will save some results on the harddick for later process and tunin
 ### Future Work
 * Will try to make simple Flask API, just like this <br>
 https://github.com/Mohamed-Ahmed-Abo-El-Enen/AIMChallenge/tree/main/Code/app
-<br>
-<br>
 * We could try more techniques like {Latent Semantic Analysis, pLSA, ...}
-<br>
-Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
-<br>
+* Or Dive To DeepLearning, Neural Networks, including Word Embedding, Variational Auto-Encoders, Generative Adversarial Networks, and some complements of the LDA such as reranking words and document representations.
 <br> 
 https://medium.com/data-folks-indonesia/recent-works-in-topic-modeling-56c38da8dfc4
 <p align="right">(<a href="#top">back to top</a>)</p>
